@@ -17,10 +17,10 @@ const OurTeam = () => {
                             <img className='' src="/assets/cfo.jpg" alt="" srcset="" />
                         </div>
                         <div className='absolute top-[120px] overflow-hidden rounded-full left-0 translate-x-[-50%] h-[65px] w-[65px]  translate-y-[-50%] z-10 bg-black'>
-                            <img className='' src="/assets/cto.jpg" alt="" srcset="" />
+                            <img className='' src="/assets/hr.jpg" alt="" srcset="" />
                         </div>
                         <div className='absolute -bottom-8 overflow-hidden rounded-full right-[100px] translate-x-[-50%] h-[90px] w-[90px]  translate-y-[-50%] z-10 bg-black'>
-                            <img className='' src="/assets/hr.jpg" alt="" srcset="" />
+                            <img className='' src="/assets/cto.jpg" alt="" srcset="" />
                         </div>
                         <div className='absolute bottom-14 overflow-hidden rounded-full left-[100px] translate-x-[-50%] h-[65px] w-[65px]  translate-y-[-50%] z-10 bg-black'>
                             <img className='' src="/assets/hr2.png" alt="" srcset="" />

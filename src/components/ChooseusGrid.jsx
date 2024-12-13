@@ -1,37 +1,8 @@
 import React from "react";
+import features from "../data/ChooseUs";
 
-const ServicesGrid = () => {
-    const services = [
-        {
-            icon: "💡",
-            title: "Trend Design",
-            description:
-                "Why money's in that office, right? If she start giving means some bullet about ain't there.",
-            bgColor: "bg-[#eabeab]",
-        },
-        {
-            icon: "📦",
-            title: "Product Design",
-            description:
-                "Why money's in that office, right? If she start giving means some bullet about ain't there.",
-            bgColor: "bg-[#53b596]",
-        },
-        {
-            icon: "📢",
-            title: "Branding",
-            description:
-                "Why money's in that office, right? If she start giving means some bullet about ain't there.",
-            bgColor: "bg-[#9566d6]",
-        },
-        {
-            icon: "🏆",
-            title: "Animation",
-            description:
-                "Why money's in that office, right? If she start giving means some bullet about ain't there.",
-            bgColor: "bg-[#1ca5da] ",
+const ChooseusGrid = () => {
 
-        },
-    ];
 
     return (
         <section className="">
@@ -40,13 +11,13 @@ const ServicesGrid = () => {
 
                     <div className="flex flex-col items-center text-center space-y-4 gap-10">
                         {
-                            services.slice(0, 2).map((obj, i) => (
+                            features.slice(0, 2).map((obj, i) => (
 
                                 <div className="flex flex-col justify-center items-center">
                                     <div
                                         className={`w-[90px] h-[90px] flex items-center justify-center rounded-full  ${obj.bgColor} mb-[25px]`}
                                     >
-                                        <span className="text-4xl">{obj.icon}</span>
+                                        <span className="text-3xl text-white">{obj.icon}</span>
                                     </div>
                                     <h3 className="text-[22px] font-[600] mb-[18px] text-gray-800">
                                         {obj.title}
@@ -59,15 +30,15 @@ const ServicesGrid = () => {
                         }
                     </div>
 
-                    <div className="flex  flex-col items-center text-center space-y-4 gap-10 pt-[70px] px-[15px]">
+                    <div className="flex  flex-col items-center text-center space-y-4 gap-10 pt-[70px] px-[5px]">
                         {
-                            services.slice(2, 4).map((obj, i) => (
+                            features.slice(2, 4).map((obj, i) => (
 
                                 <div className="flex flex-col justify-center items-center">
                                     <div
                                         className={`w-[90px] h-[90px] flex items-center justify-center rounded-full ${obj.bgColor} mb-[25px]`}
                                     >
-                                        <span className="text-4xl">{obj.icon}</span>
+                                        <span className="text-3xl text-white">{obj.icon}</span>
                                     </div>
                                     <h3 className="text-[22px] font-[600] mb-[18px] text-gray-800">
                                         {obj.title}
@@ -85,4 +56,4 @@ const ServicesGrid = () => {
     );
 };
 
-export default ServicesGrid;
+export default ChooseusGrid;
